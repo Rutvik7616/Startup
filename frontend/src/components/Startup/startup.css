@@ -1,0 +1,70 @@
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to full viewport height */
+  }
+
+.startup_section {
+    position: relative;
+    margin-top: 25px;
+  }
+  
+  .startup_section .box {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px;
+    background-color: #fafafa;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+  height:291px
+  }
+  
+  .startup_section .box .img-box {
+    width: 80px;
+    height: 80px;
+    background-color: #67bb97;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s;
+    padding: 10px;
+  }
+  
+  .startup_section .box .img-box img {
+    width: 100%;
+    height: 100%; /* Ensure the image takes up the entire space of the parent container */
+    object-fit: cover; /* Cover the entire area of the parent container */
+    border-radius: 50%; 
+  }
+  
+  .startup_section .box .detail-box {
+    margin-top: 15px;
+  }
+  
+  .startup_section .box .detail-box h4 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .startup_section .box .detail-box a {
+    color: #32a879;
+    text-decoration: none;
+  }
+  
+  .startup_section .box .detail-box a:hover {
+    color: #67bb97;
+    text-decoration: none;
+  
+  }
+  
+  .startup_section .box:hover .img-box {
+    background-color: #32a879;
+  }
+  
+
+  

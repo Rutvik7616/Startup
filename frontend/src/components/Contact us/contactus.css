@@ -1,0 +1,32 @@
+.div-container-contactus{
+    max-width: 100%;
+  height: 300px;
+    background-image: url(../../../public/Images/bg2.jpg);
+    background-size: cover;
+    border-radius: 5px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   object-fit: cover;
+}
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .custom-button {
+    padding: 10px 20px;
+    background-color: #67bb97;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height:55px;
+ max-width:350px;
+  }
+  
+  .custom-button:hover {
+    background-color: #67bb97;
+  }
+  

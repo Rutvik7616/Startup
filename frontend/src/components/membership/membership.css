@@ -1,0 +1,120 @@
+.back{
+  background-image: url(../../../public/Images/bg2.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+.survey-container {
+  background-color: #c2decd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(105, 64, 64, 0.1);  
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.survey-container2 {
+  background-color: #c2decd;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);  
+  width: 53%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-header {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+
+.button-container2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.open, .close {
+  padding: 8px 16px;
+  margin: 0 5px;
+  background-color: #32a879;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px; 
+  cursor: pointer;
+}
+
+  .survey-form {
+    background-color: #c2decd;
+    padding: 2.5rem 2.5rem;
+    border-radius: 20px;
+    width: 800px; /* Default width */
+    margin: auto;
+    margin-top: 20px;
+  }
+  
+  .forms-inputs {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 0.25rem 0.75rem;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4rem;
+  }
+  
+  .input-headings {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem; 
+  }
+  
+  .submit-button-membership {
+    width: 25%;
+    padding: 0.75rem;
+    background: #32a879;
+    color: rgb(26, 24, 24);
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 0 auto; 
+  }
+  
+  .textarea {
+    width: 93%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .survey-container,
+    .survey-container2 {
+      width: 90%;
+      max-width: 500px;
+    }
+  
+    .survey-form {
+      width: 90%;
+      max-width: 500px;
+    }
+  
+    .forms-inputs,
+    .input-headings,
+    .submit-button-membership,
+    .textarea {
+      width: 100%;
+    }
+  }
+  
